@@ -87,12 +87,15 @@
   }
 
   // ??????????
-  .form-item__input:hover + .form-item__icon,
-  .form-item__input:focus + .form-item__icon {
-    fill: var(--accent-color);
-  }
+  // .form-item__input:hover + .form-item__icon,
+  // .form-item__input:focus + .form-item__icon {
+  //   fill: var(--accent-color);
+  // }
 }
-
+.form-item__input:hover + .form-item__icon,
+.form-item__input:focus + .form-item__icon {
+  fill: var(--accent-color);
+}
 .modal-form {
   &__label {
     font-size: 12px;
